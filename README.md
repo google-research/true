@@ -17,15 +17,15 @@ CNN/DailyMail articles. Downloading the articles (via the
 [Datasets](https://huggingface.co/docs/datasets/index)
 library) might take a while.
 
-To download the datasets for TRUE, run:
+To download and standardize the datasets for TRUE, run:
 
 ```
-python -m true.download_datasets.py
+python -m true.download_datasets
 ```
 
 For computing the TRUE scores, use the "grounding", "generated_text" and
-"label" in the resulting csv files. The "label" column will contain the 
-binary label to evaluate against.
+"label" columns in the resulting csv files. The "label" column will contain 
+the binary label to evaluate against.
 
 ## Usage
 
