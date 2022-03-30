@@ -9,19 +9,23 @@ We provide a script that downloads all the 11 datasets used in TRUE and converts
 them to a standardized binary scheme.
 To download the datasets, please first download
 [nli-fever](https://www.dropbox.com/s/hylbuaovqwo2zav/nli_fever.zip?dl=0)
-and extract it. After extraction, the directory should contain an nli_fever
-folder.
+and extract it. After extraction, the working directory should contain an 
+nli_fever folder.
 
 Note: The SummEval datatset requires pairing summaries with the original
 CNN/DailyMail articles. Downloading the articles (via the
 [Datasets](https://huggingface.co/docs/datasets/index)
 library) might take a while.
 
-To download the datasets, run:
+To download the datasets for TRUE, run:
 
 ```
 python -m true.download_datasets.py
 ```
+
+For computing the TRUE scores, use the "grounding", "generated_text" and
+"label" in the resulting csv files. The "label" column will contain the 
+binary label to evaluate against.
 
 ## Usage
 
