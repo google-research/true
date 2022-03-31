@@ -396,6 +396,7 @@ def main(argv: Any) -> None:
     verify_fever_download = input(
         'Did you download and extract nli_fever? Y/N: ')
   download_fever()
+  print('Done downloading and formatting the TRUE datasets. Use the grounding, generated_text and label columns in the resulting .csv files.')
 
 
 if __name__ == '__main__':
