@@ -1,11 +1,13 @@
 # TRUE
 
-Code and data accompanying the paper "TRUE: Re-evaluating Factual
-Consistency Evaluation".
+Note: This is not an officially supported Google product.
+
+This repository includes code and data accompanying our NAACL 2022 paper 
+"TRUE: Re-evaluating Factual Consistency Evaluation".
 
 ## Data
 
-We provide a script that downloads all the 11 datasets used in TRUE and converts
+We provide a script that downloads all 11 datasets used in TRUE and converts
 them to a standardized binary scheme.
 To download the datasets, first download the
 [nli-fever](https://www.dropbox.com/s/hylbuaovqwo2zav/nli_fever.zip?dl=0)
@@ -13,7 +15,7 @@ directory and extract it. After extraction, the working directory should
 contain an nli_fever directory.
 
 Note: The SummEval datatset requires pairing summaries with the original
-CNN/DailyMail articles. Downloading these (via the
+CNN/DailyMail articles. Downloading these (via the HuggingFace
 [Datasets](https://huggingface.co/docs/datasets/index)
 library) might take a while.
 
