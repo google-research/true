@@ -2,8 +2,8 @@
 
 Note: This is not an officially supported Google product.
 
-This repository includes code and data accompanying our NAACL 2022 paper 
-"TRUE: Re-evaluating Factual Consistency Evaluation".
+This repository includes code and data accompanying our [NAACL 2022 paper 
+"TRUE: Re-evaluating Factual Consistency Evaluation"](https://arxiv.org/pdf/2204.04991.pdf).
 
 ## Data
 
