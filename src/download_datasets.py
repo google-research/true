@@ -116,7 +116,7 @@ def download_begin(data_split: str = 'dev') -> None:
     data_split: The split to download, i.e.`dev` or `test`.
   """
   df = pd.read_csv(
-      f'https://raw.githubusercontent.com/google/BEGIN-dataset/main/{data_split}_05_24_21.tsv',
+      f'https://raw.githubusercontent.com/google/BEGIN-dataset/6f881995bca5405918f3138b04f29fdd2a1b73ae/{data_split}_05_24_21.tsv',
       sep='\t')
   df = df.rename(columns={
       'evidence': 'grounding',
