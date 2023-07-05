@@ -23,7 +23,7 @@ google-auth==2.6.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 googleapis-common-protos==1.55.0
-grpcio==1.44.0
+grpcio==1.53.0
 h5py==3.6.0
 huggingface-hub==0.4.0
 idna==3.3
