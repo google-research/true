@@ -5,6 +5,10 @@ Note: This is not an officially supported Google product.
 This repository includes code and data accompanying our [NAACL 2022 paper 
 "TRUE: Re-evaluating Factual Consistency Evaluation"](https://arxiv.org/pdf/2204.04991.pdf).
 
+## Model
+
+We open sourced a strong NLI model based on this work on [HuggingFace](https://huggingface.co/google/t5_xxl_true_nli_mixture):
+
 ## Data
 
 We provide a script that downloads all 11 datasets used in TRUE and converts
