@@ -7,7 +7,7 @@ This repository includes code and data accompanying our [NAACL 2022 paper
 
 ## Model
 
-We open sourced a strong NLI model based on this work on [HuggingFace](https://huggingface.co/google/t5_xxl_true_nli_mixture):
+We open sourced an NLI model based on this work on [HuggingFace](https://huggingface.co/google/t5_xxl_true_nli_mixture).
 
 ## Data
 
