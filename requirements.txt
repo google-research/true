@@ -72,7 +72,7 @@ threadpoolctl==3.0.0
 tqdm==4.63.0
 typing-extensions==4.1.1
 urllib3==1.26.8
-Werkzeug==2.2.3
+Werkzeug==3.0.1
 wrapt==1.13.3
 xxhash==3.0.0
 yarl==1.7.2
