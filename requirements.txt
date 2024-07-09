@@ -76,4 +76,4 @@ Werkzeug==3.0.1
 wrapt==1.13.3
 xxhash==3.0.0
 yarl==1.7.2
-zipp==3.7.0
+zipp==3.19.1
